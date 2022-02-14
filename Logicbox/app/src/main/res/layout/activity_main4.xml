@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity4">
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/idBarChart"
+        android:layout_width="353dp"
+        android:layout_height="238dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.989" />
+
+    <TextView
+        android:id="@+id/tviewSSIteration"
+        android:layout_width="355dp"
+        android:layout_height="29dp"
+
+        android:text="Input Array : NA"
+
+        android:textColor="#8cbff2"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.586" />
+
+    <Button
+        android:id="@+id/btnSSIterate"
+        android:layout_width="171dp"
+        android:layout_height="48dp"
+
+        android:background="@drawable/roundedbutton"
+        android:backgroundTintMode="add"
+        android:text="ITERATE"
+
+        android:textAllCaps="false"
+        android:textColor="#1a8cff"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:icon="@drawable/doublearrow"
+        app:iconGravity="textEnd"
+        app:iconSize="20dp"
+        app:iconTint="#1a8cff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.512" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="320dp"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:text="Click on iterate to visualize the selection sort algorithm. Save the array before visualization."
+        android:textColor="@color/white"
+        android:textSize="12dp"
+
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <TextView
+        android:id="@+id/txtSaveMsgSS"
+        android:layout_width="65dp"
+        android:layout_height="19dp"
+        android:text="Not Saved"
+        android:textColor="#F7DC6F"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.275" />
+
+    <View
+        android:id="@+id/divider8"
+        android:layout_width="417dp"
+        android:layout_height="3dp"
+        android:background="#2C3E50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
+
+    <Button
+        android:id="@+id/btnSSSave"
+        android:layout_width="169dp"
+        android:layout_height="48dp"
+        android:background="@drawable/roundedbutton"
+        android:text="SAVE "
+        android:textAllCaps="false"
+        android:textColor="#1a8cff"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:icon="@drawable/plus"
+        app:iconGravity="textEnd"
+        app:iconSize="20dp"
+        app:iconTint="#1a8cff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314" />
+
+    <EditText
+        android:id="@+id/edittxtSS"
+        android:layout_width="312dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#34495E "
+        android:ems="10"
+        android:hint="Format : 2,3,4,8,7,6...."
+        android:inputType="textPersonName"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textColorHint="#85929E"
+        android:textSize="14dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.213" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="322dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:text="Enter comma separated numeric array without any spaces and save it."
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.161" />
+
+    <View
+        android:id="@+id/divider7"
+        android:layout_width="417dp"
+        android:layout_height="1dp"
+        android:layout_marginBottom="8dp"
+        android:background="#243342 "
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951" />
+
+    <Button
+        android:id="@+id/backBtn2"
+        android:layout_width="93dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/black"
+        android:backgroundTintMode="add"
+
+        android:gravity="center"
+        android:text="BACK"
+        android:textAllCaps="false"
+        android:textColor="#1a8cff"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        app:icon="@drawable/backwardarrowbold"
+        app:iconGravity="textStart"
+        app:iconSize="15dp"
+        app:iconTint="#1a8cff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="261dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="Selection Sort Visualizer"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="44dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.922"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/andicon" />
+
+    <TextView
+        android:id="@+id/tviewSSSublist"
+        android:layout_width="355dp"
+        android:layout_height="39dp"
+        android:text="Sorted Sub-list : NA"
+        android:textColor="#8cbff2"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tviewSSIteration"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

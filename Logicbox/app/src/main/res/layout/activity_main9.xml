@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity9">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="44dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.922"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/andicon" />
+
+    <Button
+        android:id="@+id/mainmenu"
+        android:layout_width="166dp"
+        android:layout_height="48dp"
+        android:background="@drawable/roundedbutton"
+        android:text="MAIN MENU"
+        android:textAllCaps="false"
+        android:textColor="#1a8cff"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        app:icon="@drawable/doublearrow"
+        app:iconGravity="textEnd"
+        app:iconSize="16dp"
+        app:iconTint="#1a8cff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.941" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="261dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="Developers"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.399" />
+
+    <View
+        android:id="@+id/divider14"
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:background="#243342 "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <View
+        android:id="@+id/divider13"
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="104dp"
+        android:background="#243342 "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="261dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="ABOUT US"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="315dp"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:text="LogicBox is designed under the domain of Data Structures and Algorithms, which can be used to visualize some of the commonly used sorting algorithms, to calculate the running time complexity with the help of master's theorem calculator and using Stacks to convert expressions. The core technologies utilized to build the app is Java, Android NDK and C++."
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.196" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="139dp"
+        android:layout_height="26dp"
+        android:gravity="center"
+        android:text="Mrinal Mayank"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="139dp"
+        android:layout_height="26dp"
+        android:gravity="center"
+        android:text="Nivedita Singh"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="305dp"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:text="Developed array sorting visualizers, complexity calculator, UI development, JNI Integration and algorithm implementation at backend."
+        android:textColor="#9E9E9E"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.548" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="294dp"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:text="Developed stack conversion algorithms, complexity calculator, UI development, JNI Integration and algorithm implementation at backend."
+        android:textColor="#9E9E9E"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.766" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

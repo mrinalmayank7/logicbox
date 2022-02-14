@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity6">
+
+    <View
+        android:id="@+id/divider11"
+        android:layout_width="417dp"
+        android:layout_height="3dp"
+        android:background="#364d63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnINFConvert"
+        android:layout_width="166dp"
+        android:layout_height="48dp"
+        android:background="@drawable/roundedbutton"
+        android:text="CONVERT"
+        android:textAllCaps="false"
+        android:textColor="#1a8cff"
+        android:textSize="13dp"
+        android:textStyle="normal"
+        app:icon="@drawable/doublearrow"
+        app:iconGravity="textEnd"
+        app:iconPadding="8dp"
+        app:iconSize="18dp"
+        app:iconTint="#1a8cff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.595" />
+
+    <EditText
+        android:id="@+id/edittxtINF"
+        android:layout_width="312dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#34495E "
+        android:ems="10"
+        android:hint="Format : a*(b+c)/d"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textColorHint="#85929E"
+        android:textSize="14dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="322dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:text="Enter the infix expression without spaces and convert to prefix or postfix."
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.179" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="417dp"
+        android:layout_height="1dp"
+        android:background="#243342 "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="261dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="Infix to Prefix | Postfix"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="261dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="Results"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.699" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="44dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.922"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/andicon" />
+
+    <Button
+        android:id="@+id/backBtnINF"
+        android:layout_width="93dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/black"
+        android:backgroundTintMode="add"
+
+        android:gravity="center"
+        android:text="BACK"
+        android:textAllCaps="false"
+        android:textColor="#1a8cff"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        app:icon="@drawable/backwardarrowbold"
+        app:iconGravity="textStart"
+        app:iconSize="15dp"
+        app:iconTint="#1a8cff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/INFResult"
+        android:layout_width="364dp"
+        android:layout_height="183dp"
+        android:background="@drawable/rectlbtn"
+        android:backgroundTint="#0E1114"
+        android:gravity="center"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/divider11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edittxtINF"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/R1Convert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#009688"
+            android:buttonTint="#2196F3"
+            android:text="Postfix"
+            android:checked="false"
+            android:textColor="#FFFFFF"
+            android:clickable="true"
+            android:textSize="14sp"
+            />
+
+        <RadioButton
+            android:id="@+id/R2Convert"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#009688"
+            android:buttonTint="#2196F3"
+            android:clickable="true"
+            android:shadowColor="#FAFFFFFF"
+            android:text="Prefix"
+            android:checked="false"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            />
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
