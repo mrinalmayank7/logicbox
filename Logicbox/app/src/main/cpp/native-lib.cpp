@@ -11,7 +11,7 @@ extern "C" JNIEXPORT jstring JNICALL
 Java_com_example_logicbox_MainActivity_stringFromJNI(
         JNIEnv* env,
         jobject /* this */) {
-    std::string hello = "By M & N";
+    std::string hello = "By Mrinal";
     return env->NewStringUTF(hello.c_str());
 }
 
