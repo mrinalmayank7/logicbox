@@ -45,7 +45,7 @@
         android:layout_width="261dp"
         android:layout_height="35dp"
         android:gravity="center"
-        android:text="Developers"
+        android:text="Developer"
         android:textColor="@color/white"
         android:textSize="14dp"
 
@@ -125,26 +125,11 @@
         app:layout_constraintVertical_bias="0.48" />
 
     <TextView
-        android:id="@+id/textView27"
-        android:layout_width="139dp"
-        android:layout_height="26dp"
-        android:gravity="center"
-        android:text="Nivedita Singh"
-        android:textColor="@color/white"
-        android:textSize="14dp"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.68" />
-
-    <TextView
         android:id="@+id/textView26"
         android:layout_width="305dp"
         android:layout_height="66dp"
         android:gravity="center"
-        android:text="Developed array sorting visualizers, complexity calculator, UI development, JNI Integration and algorithm implementation at backend."
+        android:text="Developed array sorting visualizers, complexity calculator, stack conversion algorithms, UI development, JNI Integration and algorithm implementation at backend."
         android:textColor="#9E9E9E"
         android:textSize="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -153,19 +138,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.548" />
-
-    <TextView
-        android:id="@+id/textView28"
-        android:layout_width="294dp"
-        android:layout_height="72dp"
-        android:gravity="center"
-        android:text="Developed stack conversion algorithms, complexity calculator, UI development, JNI Integration and algorithm implementation at backend."
-        android:textColor="#9E9E9E"
-        android:textSize="12dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.766" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
